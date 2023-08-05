@@ -1,0 +1,11 @@
+Model Interface => The inteface which is used for transferring the required data
+from controller part to view part.
+
+In order to do so we use two attributes of the model interface
+1. addModel attribute, used to bind the required object with model attributes name.
+2. @ModelAttribute, used to bind a method parameter or method return value to the named model attribute.
+
+P.S => The object here will be created here first EX:
+Details detail = new Details();
+model.addAttribute("detail", detail);
+
