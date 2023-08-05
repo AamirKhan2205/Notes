@@ -1,5 +1,5 @@
 # Notes
-                                                                                                                REACT
+REACT
 
 Prerequisites :- NodeJs should be installed.
                         npm and npx are required.
